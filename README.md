@@ -3,28 +3,27 @@
 Este projeto consiste em uma API RESTful para gerenciar  tarefas onde os usuários podem
 adicionar, visualizar, editar e excluir tarefas e estes são alguns recursos:
 
-1. Criação de usuário, login e logout;
+1. **Criação** de usuário, login e logout;
 2. Listagem, criação, edição e exclusão de tarefas;
-3. Insights mostrando total de tarefas, pendentes, em andamento e concluídas.
-4. Autenticação para lidar com planos de férias e usuários;
+3. **Insights** mostrando total de tarefas, pendentes, em andamento e concluídas.
+4. Autenticação para lidar com tarefas do determinado usuário;
 
 A pasta no diretório contém o projeto desenvolvido em Laravel, Vue.js e Docker.
-
 
 ## 💻 **Project setup**
 
 ### 🛫 Início
 
-Para começar, primeiro precisamos inicializar os contêineres do Docker executando o seguinte comando na **raiz** do projeto:
+Para começar, primeiro precisamos **inicializar os contêineres** do Docker executando o seguinte comando na **raiz** do projeto:
 ```
 sudo make run
 ```
 Este comando será responsável por:
 
-1. Copiar os arquivos .env.example para .env, tanto no projeto principal quanto no backend, garantindo que as variáveis de ambiente estejam configuradas.
-2. Reiniciar os containers Docker, removendo (down), reconstruindo (build) e subindo (up -d) novamente o ambiente.
-3. Instalar dependências no backend, ajusta permissões e executa migrations + seeders no banco de dados.
-4. Instalar dependências no frontend, compila o projeto (npm install && npm run build) e o deixa pronto para uso!
+1. Copiar os arquivos `.env.example` para `.env`, tanto no **projeto principal** quanto no **backend**, garantindo que as variáveis de ambiente estejam configuradas.
+2. Reiniciar os containers Docker, removendo (`down`), reconstruindo (`build`) e subindo (`up -d`) novamente o ambiente.
+3. Instalar dependências no backend, ajusta permissões e executa `migrations` + `seeders` no banco de dados.
+4. Instalar dependências no frontend, compila o projeto (`npm install && npm run build`) e o deixa pronto para uso!
 
 Tudo pronto! Se estiver tudo certo, a visualização do frontend estará disponível na rota `localhost:8001`.
 
