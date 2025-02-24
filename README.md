@@ -46,7 +46,19 @@ sudo make stop
 ```
 Observação: se você receber um erro na primeira inicialização, encerre o aplicativo e inicie-o novamente. Ou se necessário, entre em contato comigo!
 
-## 🏗️ **Built with**
+## 🚨 **Spoiler**
+
+### Autenticação
+![image](https://github.com/user-attachments/assets/f3e1063f-0c4a-4dd2-95f0-fc89c2207f02)
+
+### Landing
+![image](https://github.com/user-attachments/assets/b8dea31a-4274-4619-a476-d6e04a0c03af)
+
+### Tarefas
+![image](https://github.com/user-attachments/assets/aef3aedd-f842-4659-9866-f8303dd0ef39)
+
+
+## 🏗️ **Contruído com**
 
 * [PHP](https://www.php.net/)
 * [Laravel](https://laravel.com/)
@@ -54,4 +66,4 @@ Observação: se você receber um erro na primeira inicialização, encerre o ap
 * [Docker](https://www.docker.com/)
 
 ---
-Developed by [Yuri Fernandes](https://github.com/fernandesyuri16)
+👨🏻‍💻 Developed by [Yuri Fernandes](https://github.com/fernandesyuri16)
