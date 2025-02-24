@@ -1,0 +1,61 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap');
+@import 'primeicons/primeicons.css';
+
+  /* Link do YouTube */
+#github_link {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  display: block;
+  opacity: 0;
+  transform: translateX(-50%);
+  width: 180px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #333; /* Cor preta do GitHub */
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  animation: showGithubLink 1s ease 2s forwards;
+}
+
+#github_link:hover {
+  background-color: white;
+  color: #333;
+}
+
+@keyframes showGithubLink {
+  0% { bottom: 10px; }
+  100% { opacity: 1; bottom: 3%; }
+}
+
+#app {
+  font-family: 'Work Sans', sans-serif;
+  max-width: 100%;
+  margin: auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
